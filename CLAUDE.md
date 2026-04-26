@@ -545,8 +545,9 @@ suggest `alias py=/opt/homebrew/bin/python3.10`).
 PYTHONPATH=OpenEnv/src:adaptive_boss \
     /opt/homebrew/bin/python3.10 -m uvicorn server.app:app --port 8000
 
-# Docker — build from project root (parent of adaptive_boss/)
-docker build -t adaptive-boss-env -f adaptive_boss/server/Dockerfile .
+# Docker — build from inside adaptive_boss/ (Dockerfile expects env contents
+# at the build context root, matching the HF Spaces deploy layout)
+cd adaptive_boss && docker build -t adaptive-boss-env -f server/Dockerfile .
 docker run -p 8000:8000 adaptive-boss-env
 
 # In-process smoke test of OpenEnv stack

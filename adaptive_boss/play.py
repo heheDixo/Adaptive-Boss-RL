@@ -64,6 +64,10 @@ def main():
     state = env.reset()
     renderer = Renderer(fps=10)
 
+    if not renderer.show_start_screen():
+        renderer.quit()
+        return
+
     win_rate_history = deque(maxlen=20)
     pause_frames = 0
     outcome = None

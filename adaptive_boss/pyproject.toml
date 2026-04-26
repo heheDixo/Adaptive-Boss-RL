@@ -22,6 +22,10 @@ dependencies = [
 ]
 
 [project.scripts]
+# `server` is the canonical entry-point name OpenEnv's deploy validator looks for.
+# Path uses Space-layout imports (`server.app`) since the deployed Space repo
+# has env contents at root, with /app on PYTHONPATH inside the container.
+server = "server.app:main"
 adaptive-boss-server = "adaptive_boss.server.app:main"
 
 [tool.setuptools]
@@ -32,9 +36,8 @@ packages = [
     "adaptive_boss.rl",
     "adaptive_boss.server",
 ]
-package-dir = {
-    "adaptive_boss" = ".",
-    "adaptive_boss.game" = "game",
-    "adaptive_boss.rl" = "rl",
-    "adaptive_boss.server" = "server",
-}
+[tool.setuptools.package-dir]
+"adaptive_boss" = "."
+"adaptive_boss.game" = "game"
+"adaptive_boss.rl" = "rl"
+"adaptive_boss.server" = "server"

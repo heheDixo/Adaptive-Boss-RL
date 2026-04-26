@@ -115,6 +115,104 @@ class Renderer:
         pygame.draw.ellipse(shadow, (0, 0, 0, 110), (0, 0, w, h))
         surface.blit(shadow, (cx - w // 2, feet_y - h // 2))
 
+    def show_start_screen(self) -> bool:
+        """Modal start screen with a PLAY button. Returns True to start, False to quit.
+
+        Click the button, or press Space / Enter / P to start. Esc / Q quits.
+        """
+        title_font = pygame.font.SysFont("monospace", 56, bold=True)
+        sub_font = pygame.font.SysFont("monospace", 18)
+        button_font = pygame.font.SysFont("monospace", 32, bold=True)
+        small_font = pygame.font.SysFont("monospace", 13)
+
+        button_w, button_h = 240, 64
+        button_rect = pygame.Rect(
+            (WINDOW_W - button_w) // 2,
+            300,
+            button_w,
+            button_h,
+        )
+
+        clock = pygame.time.Clock()
+        pulse = 0.0
+        while True:
+            for event in pygame.event.get():
+                if event.type == pygame.QUIT:
+                    return False
+                if event.type == pygame.KEYDOWN:
+                    if event.key in (pygame.K_ESCAPE, pygame.K_q):
+                        return False
+                    if event.key in (pygame.K_SPACE, pygame.K_RETURN, pygame.K_p):
+                        return True
+                if event.type == pygame.MOUSEBUTTONDOWN and event.button == 1:
+                    if button_rect.collidepoint(event.pos):
+                        return True
+
+            mouse_pos = pygame.mouse.get_pos()
+            hover = button_rect.collidepoint(mouse_pos)
+
+            # Background
+            self.screen.fill((10, 8, 14))
+            # Subtle vignette: vertical gradient
+            for y in range(0, WINDOW_H, 4):
+                shade = int(8 + (y / WINDOW_H) * 14)
+                pygame.draw.rect(self.screen, (shade, shade // 2, shade // 2),
+                                 (0, y, WINDOW_W, 4))
+
+            # Title
+            title = title_font.render("ADAPTIVE BOSS", True, BLOOD_RED)
+            title_rect = title.get_rect(center=(WINDOW_W // 2, 130))
+            self.screen.blit(title, title_rect)
+
+            # Subtitle
+            sub = sub_font.render(
+                "The boss reads your cheese — and punishes you for it.",
+                True, (200, 180, 180),
+            )
+            sub_rect = sub.get_rect(center=(WINDOW_W // 2, 185))
+            self.screen.blit(sub, sub_rect)
+
+            # Hackathon tag
+            tag = small_font.render(
+                "Meta x Scaler OpenEnv Hackathon  |  Round 2  |  Bangalore 2026",
+                True, GREY,
+            )
+            tag_rect = tag.get_rect(center=(WINDOW_W // 2, 215))
+            self.screen.blit(tag, tag_rect)
+
+            # PLAY button
+            pulse = (pulse + 0.08) % (2 * 3.14159)
+            import math
+            glow = int(30 + 20 * math.sin(pulse))
+            base_color = (180 + glow // 2, 30, 30) if not hover else (220, 60, 60)
+            pygame.draw.rect(self.screen, base_color, button_rect, border_radius=12)
+            pygame.draw.rect(self.screen, (255, 200, 200), button_rect, 3, border_radius=12)
+            label = button_font.render("▶  PLAY", True, WHITE)
+            label_rect = label.get_rect(center=button_rect.center)
+            self.screen.blit(label, label_rect)
+
+            # Controls hint
+            hints = [
+                "T  cycle modes  (trained / untrained / human)",
+                "R  reset fight     O  toggle online adapter     Q  quit",
+                "Human mode:  Left / Right  dodge   Space  attack   D  defend",
+            ]
+            for i, h in enumerate(hints):
+                surf = small_font.render(h, True, (170, 170, 180))
+                rect = surf.get_rect(center=(WINDOW_W // 2, 410 + i * 22))
+                self.screen.blit(surf, rect)
+
+            # Footer
+            footer = small_font.render(
+                "Click PLAY or press Space / Enter to start",
+                True, (140, 140, 150),
+            )
+            footer_rect = footer.get_rect(center=(WINDOW_W // 2, WINDOW_H - 25))
+            self.screen.blit(footer, footer_rect)
+
+            pygame.display.flip()
+            clock.tick(30)
+
     def handle_events(self):
         out = {"reset": False, "quit": False, "toggle": False,
                "online_toggle": False, "human_move": None}

@@ -1,3 +1,22 @@
+---
+title: Adaptive Boss
+emoji: 🎮
+colorFrom: red
+colorTo: yellow
+sdk: docker
+app_port: 8000
+pinned: false
+license: mit
+short_description: Boss enemy that learns to counter your cheese strategies.
+tags:
+  - reinforcement-learning
+  - openenv
+  - trl
+  - ppo
+  - games
+  - hackathon
+---
+
 # 🎮 Adaptive Boss — OpenEnv RL Environment
 
 > *"Every Elden Ring player has cheesed a boss. We made the boss learn your cheese — and punish you for it."*
@@ -5,6 +24,69 @@
 **Meta × Scaler OpenEnv Hackathon — Round 2 | Bangalore, April 25–26, 2026**
 
 **Theme:** Self-Improving Agent Systems + World Modeling
+
+<p align="center">
+  <a href="https://youtu.be/RXesZzgo6H0">
+    <img src="https://img.youtube.com/vi/RXesZzgo6H0/maxresdefault.jpg" alt="Watch the demo on YouTube" width="640">
+  </a>
+  <br>
+  <em>▶ Click to watch the 2-min demo on YouTube</em>
+</p>
+
+<p align="center">
+  <a href="https://youtu.be/RXesZzgo6H0">
+    <img src="https://img.shields.io/badge/▶%20WATCH%20DEMO-2%20min%20on%20YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white&labelColor=8B0000" alt="Watch demo" height="48">
+  </a>
+  &nbsp;
+  <a href="https://github.com/heheDixo/Adaptive-Boss-RL#-play-the-game-locally">
+    <img src="https://img.shields.io/badge/🎮%20PLAY%20LOCALLY-Trained%20boss%20vs%20you-red?style=for-the-badge&logoColor=white&labelColor=8B0000" alt="Play the Game" height="48">
+  </a>
+  &nbsp;
+  <a href="https://colab.research.google.com/github/heheDixo/Adaptive-Boss-RL/blob/main/adaptive_boss/Adaptive_Boss_Train.ipynb">
+    <img src="https://img.shields.io/badge/🚀%20TRAIN%20IT-Colab%20notebook-orange?style=for-the-badge&logoColor=white&labelColor=E65100" alt="Train in Colab" height="48">
+  </a>
+</p>
+
+| Resource | Link |
+|---|---|
+| ▶️ **Play the game** (Pygame demo, local) | `git clone https://github.com/heheDixo/Adaptive-Boss-RL && cd Adaptive-Boss-RL/adaptive_boss && pip install -r requirements.txt && python play.py` |
+| 📦 **Source code** | [github.com/heheDixo/Adaptive-Boss-RL](https://github.com/heheDixo/Adaptive-Boss-RL) |
+| 📝 **Hackathon writeup** | [`BLOG.md`](BLOG.md) — full motivation, design, results, war stories |
+| 🔬 **Train in Colab** (TRL GRPO pipeline) | [`Adaptive_Boss_Train.ipynb`](https://colab.research.google.com/github/heheDixo/Adaptive-Boss-RL/blob/main/adaptive_boss/Adaptive_Boss_Train.ipynb) |
+| 🌐 **Live OpenEnv server** | [`dixo8055/adaptive-boss-rl`](https://huggingface.co/spaces/dixo8055/adaptive-boss-rl) (this Space — `/reset`, `/step`, `/health`) |
+| 📺 **Demo video** | [youtu.be/RXesZzgo6H0](https://youtu.be/RXesZzgo6H0) — trained boss vs untrained vs human, 91% WR live |
+
+---
+
+## ▶️ Play the game (locally)
+
+The Pygame demo is the centrepiece — it's split-screen with the live BOSS BRAIN
+panel on the right showing the policy's confidence bars updating every frame
+while you play.
+
+```bash
+git clone https://github.com/heheDixo/Adaptive-Boss-RL.git
+cd Adaptive-Boss-RL/adaptive_boss
+pip install -r requirements.txt
+python play.py
+```
+
+**Controls in the demo window:**
+
+| Key | Action |
+|---|---|
+| `T` | Cycle modes: **trained boss → untrained boss → human plays** |
+| `R` | Reset the current fight |
+| `O` | Toggle the live online adapter (visualisation) |
+| `Q` | Quit |
+| `←` / `→` | Dodge left / right (in human mode) |
+| `Space` | Attack (in human mode) |
+| `D` | Defend (in human mode) |
+
+The demo runs locally because Pygame needs an actual display — a headless
+Docker Space can't render it. The trained policy weights ship in this Space at
+[`models/boss_policy.pt`](models/boss_policy.pt) and the demo loads them
+automatically.
 
 ---
 
