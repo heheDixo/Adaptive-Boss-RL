@@ -1,0 +1,12 @@
+{
+  "n_episodes": 100,
+  "win_rate": 0.62,
+  "draw_rate": 0.0,
+  "mean_reward": 7.175,
+  "action_distribution": {
+    "attack_left": 1.0,
+    "attack_right": 0.0,
+    "reposition": 0.0,
+    "defend": 0.0
+  }
+}

@@ -1,0 +1,99 @@
+# ── External / vendored ──────────────────────────────────────────────
+# OpenEnv reference repo — judges can clone it themselves; not our code.
+OpenEnv/
+
+# ── Python ───────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+*.egg
+build/
+dist/
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+MANIFEST
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ── Virtual envs ─────────────────────────────────────────────────────
+venv/
+.venv/
+env/
+.env
+ENV/
+env.bak/
+venv.bak/
+
+# ── Editor / IDE ─────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ── Jupyter / Colab ──────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ── Test / coverage ──────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.cache/
+coverage.xml
+*.cover
+*.py,cover
+
+# ── Type checkers ────────────────────────────────────────────────────
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+.ruff_cache/
+
+# ── Training artifacts (transient) ───────────────────────────────────
+# Keep models/boss_policy.pt and models/boss_policy_trl/ — those are
+# the submission evidence judges run. Drop only iteration noise.
+trl_output/
+adaptive_boss/trl_output/
+**/checkpoint-*/
+*_best.pt
+wandb/
+runs/
+events.out.tfevents.*
+
+# ── OS / misc ────────────────────────────────────────────────────────
+*.log
+*.tmp
+*.bak
+.history/
+
+# ── Secrets ──────────────────────────────────────────────────────────
+.env
+.env.local
+*.pem
+*.key
+secrets.json
+.huggingface/
+.cache/huggingface/
+
+# ── Claude / project memory ──────────────────────────────────────────
+.claude/

@@ -1,0 +1,1352 @@
+[
+  {
+    "episode": 0,
+    "boss_win_rate": 0.0,
+    "avg_reward": -0.16781249791383743,
+    "policy_loss": 0.00998942255973816,
+    "value_loss": 0.0,
+    "entropy": 3.028773283958435,
+    "reward_std": 1.0337570369243623
+  },
+  {
+    "episode": 1,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.2353125050663948,
+    "policy_loss": 0.0011981321498751641,
+    "value_loss": 0.0,
+    "entropy": 3.0229182958602907,
+    "reward_std": 0.9980851650238037
+  },
+  {
+    "episode": 2,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.30593750439584255,
+    "policy_loss": 0.01660161465406418,
+    "value_loss": 0.0,
+    "entropy": 3.019001007080078,
+    "reward_std": 1.204802992939949
+  },
+  {
+    "episode": 3,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.19687500447034836,
+    "policy_loss": 0.0028242940083146096,
+    "value_loss": 0.0,
+    "entropy": 3.0171580791473387,
+    "reward_std": 1.2325189113616943
+  },
+  {
+    "episode": 4,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.42687500528991223,
+    "policy_loss": -0.006414918601512909,
+    "value_loss": 0.0,
+    "entropy": 3.0167997598648073,
+    "reward_std": 1.488866889476776
+  },
+  {
+    "episode": 5,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.1953125,
+    "policy_loss": -0.00709846019744873,
+    "value_loss": 0.0,
+    "entropy": 3.015362000465393,
+    "reward_std": 1.2998464941978454
+  },
+  {
+    "episode": 6,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.7221874848008156,
+    "policy_loss": 0.0038562554866075514,
+    "value_loss": 0.0,
+    "entropy": 3.0132591009140013,
+    "reward_std": 2.0542365849018096
+  },
+  {
+    "episode": 7,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.25031251572072505,
+    "policy_loss": -0.025820159912109376,
+    "value_loss": 0.0,
+    "entropy": 3.009409475326538,
+    "reward_std": 1.0830184653401376
+  },
+  {
+    "episode": 8,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.3081249989569187,
+    "policy_loss": -0.0030043136328458788,
+    "value_loss": 0.0,
+    "entropy": 3.0055716276168822,
+    "reward_std": 1.4096497178077698
+  },
+  {
+    "episode": 9,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.40593749806284907,
+    "policy_loss": -0.006749482452869415,
+    "value_loss": 0.0,
+    "entropy": 3.005886936187744,
+    "reward_std": 1.2537796169519424
+  },
+  {
+    "episode": 10,
+    "boss_win_rate": 0.0,
+    "avg_reward": -0.06718749143183231,
+    "policy_loss": -0.0037796862423419954,
+    "value_loss": 0.0,
+    "entropy": 3.0073549270629885,
+    "reward_std": 0.9928007304668427
+  },
+  {
+    "episode": 11,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.07437500581145287,
+    "policy_loss": -0.008863768726587295,
+    "value_loss": 0.0,
+    "entropy": 3.0077233791351317,
+    "reward_std": 0.8658416092395782
+  },
+  {
+    "episode": 12,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.3278125047683716,
+    "policy_loss": 0.001476924866437912,
+    "value_loss": 0.0,
+    "entropy": 3.0037522077560426,
+    "reward_std": 1.2559321343898773
+  },
+  {
+    "episode": 13,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.19843750149011613,
+    "policy_loss": 0.0014502770267426968,
+    "value_loss": 0.0,
+    "entropy": 3.0021042823791504,
+    "reward_std": 0.9705757617950439
+  },
+  {
+    "episode": 14,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.07812499478459359,
+    "policy_loss": -0.01393013447523117,
+    "value_loss": 0.0,
+    "entropy": 3.000115180015564,
+    "reward_std": 1.201153165102005
+  },
+  {
+    "episode": 15,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.4931249964982271,
+    "policy_loss": -0.00450190044939518,
+    "value_loss": 0.0,
+    "entropy": 2.996935248374939,
+    "reward_std": 1.3176115989685058
+  },
+  {
+    "episode": 16,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.3996874962002039,
+    "policy_loss": -0.00015938375145196915,
+    "value_loss": 0.0,
+    "entropy": 2.9918210029602053,
+    "reward_std": 1.485587912797928
+  },
+  {
+    "episode": 17,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.2559375077486038,
+    "policy_loss": 0.00779571533203125,
+    "value_loss": 0.0,
+    "entropy": 2.9893548250198365,
+    "reward_std": 1.380581760406494
+  },
+  {
+    "episode": 18,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.21718750074505805,
+    "policy_loss": -0.0071721628308296205,
+    "value_loss": 0.0,
+    "entropy": 2.9874687433242797,
+    "reward_std": 0.9272246599197388
+  },
+  {
+    "episode": 19,
+    "boss_win_rate": 0.0,
+    "avg_reward": -0.12437499687075615,
+    "policy_loss": 0.006636455655097961,
+    "value_loss": 0.0,
+    "entropy": 2.9850368738174438,
+    "reward_std": 1.060842004418373
+  },
+  {
+    "episode": 20,
+    "boss_win_rate": 0.0,
+    "avg_reward": -0.2056249976158142,
+    "policy_loss": -0.003225785493850708,
+    "value_loss": 0.0,
+    "entropy": 2.9834290742874146,
+    "reward_std": 1.1188226521015168
+  },
+  {
+    "episode": 21,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.18437500819563865,
+    "policy_loss": 1.7639249563217164e-07,
+    "value_loss": 0.0,
+    "entropy": 2.9804436206817626,
+    "reward_std": 0.8839203506708145
+  },
+  {
+    "episode": 22,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.2912499938160181,
+    "policy_loss": -0.003245321661233902,
+    "value_loss": 0.0,
+    "entropy": 2.9755909204483033,
+    "reward_std": 1.2451443374156952
+  },
+  {
+    "episode": 23,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.14125000461935996,
+    "policy_loss": -0.0018627621233463288,
+    "value_loss": 0.0,
+    "entropy": 2.9676762580871583,
+    "reward_std": 0.9510947525501251
+  },
+  {
+    "episode": 24,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.2384375035762787,
+    "policy_loss": 0.003605625033378601,
+    "value_loss": 0.0,
+    "entropy": 2.9525433778762817,
+    "reward_std": 1.2007616996765136
+  },
+  {
+    "episode": 25,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.3034375049173832,
+    "policy_loss": -0.015053248405456543,
+    "value_loss": 0.0,
+    "entropy": 2.934579086303711,
+    "reward_std": 1.2835460662841798
+  },
+  {
+    "episode": 26,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.4993750140070915,
+    "policy_loss": 4.8591382801532744e-05,
+    "value_loss": 0.0,
+    "entropy": 2.9212223529815673,
+    "reward_std": 1.3679212152957916
+  },
+  {
+    "episode": 27,
+    "boss_win_rate": 0.0,
+    "avg_reward": -0.0631250150501728,
+    "policy_loss": -0.003193647041916847,
+    "value_loss": 0.0,
+    "entropy": 2.912246894836426,
+    "reward_std": 1.7905008792877197
+  },
+  {
+    "episode": 28,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.22531250193715097,
+    "policy_loss": -0.011896091699600219,
+    "value_loss": 0.0,
+    "entropy": 2.9053519010543822,
+    "reward_std": 1.0424987018108367
+  },
+  {
+    "episode": 29,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.5146875064820051,
+    "policy_loss": 1.1175870895385742e-09,
+    "value_loss": 0.0,
+    "entropy": 2.902301025390625,
+    "reward_std": 1.1591006994247437
+  },
+  {
+    "episode": 30,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.35687499344348905,
+    "policy_loss": -0.0033748030662536623,
+    "value_loss": 0.0,
+    "entropy": 2.8957813501358034,
+    "reward_std": 1.1048424929380416
+  },
+  {
+    "episode": 31,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.299687497317791,
+    "policy_loss": -0.0014519467018544673,
+    "value_loss": 0.0,
+    "entropy": 2.8878907680511476,
+    "reward_std": 1.2483838617801666
+  },
+  {
+    "episode": 32,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.2950000032782555,
+    "policy_loss": 5.514603108167648e-05,
+    "value_loss": 0.0,
+    "entropy": 2.8810896635055543,
+    "reward_std": 1.364156037569046
+  },
+  {
+    "episode": 33,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.2706249952316284,
+    "policy_loss": 0.004495370760560035,
+    "value_loss": 0.0,
+    "entropy": 2.8604063272476195,
+    "reward_std": 1.3128716319799423
+  },
+  {
+    "episode": 34,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.7071874916553498,
+    "policy_loss": -0.00480305589735508,
+    "value_loss": 0.0,
+    "entropy": 2.841815400123596,
+    "reward_std": 1.679228514432907
+  },
+  {
+    "episode": 35,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.199687509983778,
+    "policy_loss": 0.0012341277673840524,
+    "value_loss": 0.0,
+    "entropy": 2.8290775537490847,
+    "reward_std": 1.1651351630687714
+  },
+  {
+    "episode": 36,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.4612499997019768,
+    "policy_loss": -0.004359710589051246,
+    "value_loss": 0.0,
+    "entropy": 2.8323229551315308,
+    "reward_std": 1.5163319170475007
+  },
+  {
+    "episode": 37,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.24531249403953553,
+    "policy_loss": 0.0010650856420397758,
+    "value_loss": 0.0,
+    "entropy": 2.8286016464233397,
+    "reward_std": 1.0946746468544006
+  },
+  {
+    "episode": 38,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.40437500923871994,
+    "policy_loss": -0.0022784236818552015,
+    "value_loss": 0.0,
+    "entropy": 2.808087420463562,
+    "reward_std": 1.1545419156551362
+  },
+  {
+    "episode": 39,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.12531250715255737,
+    "policy_loss": -0.00762336328625679,
+    "value_loss": 0.0,
+    "entropy": 2.780282807350159,
+    "reward_std": 1.4537171840667724
+  },
+  {
+    "episode": 40,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.5465624883770943,
+    "policy_loss": 0.006548209488391877,
+    "value_loss": 0.0,
+    "entropy": 2.7604074716567992,
+    "reward_std": 1.4649361670017242
+  },
+  {
+    "episode": 41,
+    "boss_win_rate": 0.0,
+    "avg_reward": -0.019062504172325134,
+    "policy_loss": 0.006417207419872284,
+    "value_loss": 0.0,
+    "entropy": 2.7434181451797484,
+    "reward_std": 1.3304256826639176
+  },
+  {
+    "episode": 42,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.12406247779726982,
+    "policy_loss": 0.0021001584827899933,
+    "value_loss": 0.0,
+    "entropy": 2.7453794717788695,
+    "reward_std": 1.4331263661384583
+  },
+  {
+    "episode": 43,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.4581249803304672,
+    "policy_loss": -0.005751235038042068,
+    "value_loss": 0.0,
+    "entropy": 2.7369110107421877,
+    "reward_std": 1.7139196038246154
+  },
+  {
+    "episode": 44,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.4565624940209091,
+    "policy_loss": -0.005123803764581681,
+    "value_loss": 0.0,
+    "entropy": 2.7172407627105715,
+    "reward_std": 1.4985840052366257
+  },
+  {
+    "episode": 45,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.2553125023841858,
+    "policy_loss": 0.008170327544212342,
+    "value_loss": 0.0,
+    "entropy": 2.686144495010376,
+    "reward_std": 1.1296541571617127
+  },
+  {
+    "episode": 46,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.1684374950826168,
+    "policy_loss": -0.0015578813850879668,
+    "value_loss": 0.0,
+    "entropy": 2.666544198989868,
+    "reward_std": 1.2302240014076233
+  },
+  {
+    "episode": 47,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.5465624980628491,
+    "policy_loss": 0.0019650427624583245,
+    "value_loss": 0.0,
+    "entropy": 2.6530059337615968,
+    "reward_std": 1.5909708976745605
+  },
+  {
+    "episode": 48,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.29156251400709154,
+    "policy_loss": 0.0009495478123426437,
+    "value_loss": 0.0,
+    "entropy": 2.6209850549697875,
+    "reward_std": 1.8088009417057038
+  },
+  {
+    "episode": 49,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.5300000108778476,
+    "policy_loss": 1.3038516044616698e-09,
+    "value_loss": 0.0,
+    "entropy": 2.606099534034729,
+    "reward_std": 1.6954536616802216
+  },
+  {
+    "episode": 50,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.27843749672174456,
+    "policy_loss": -0.0023595718666911125,
+    "value_loss": 0.0,
+    "entropy": 2.590861177444458,
+    "reward_std": 1.2641510486602783
+  },
+  {
+    "episode": 51,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.6734374970197677,
+    "policy_loss": 4.6566128730773926e-09,
+    "value_loss": 0.0,
+    "entropy": 2.5752779722213743,
+    "reward_std": 1.6218131244182588
+  },
+  {
+    "episode": 52,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.49874999523162844,
+    "policy_loss": 0.002793254889547825,
+    "value_loss": 0.0,
+    "entropy": 2.552882361412048,
+    "reward_std": 1.586894017457962
+  },
+  {
+    "episode": 53,
+    "boss_win_rate": 0.0,
+    "avg_reward": 1.0590625181794167,
+    "policy_loss": 0.002648150362074375,
+    "value_loss": 0.0,
+    "entropy": 2.5406517505645754,
+    "reward_std": 2.288358998298645
+  },
+  {
+    "episode": 54,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.30718750655651095,
+    "policy_loss": 5.4247677326202394e-06,
+    "value_loss": 0.0,
+    "entropy": 2.5414347648620605,
+    "reward_std": 1.3702750861644746
+  },
+  {
+    "episode": 55,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.29937499910593035,
+    "policy_loss": 0.0,
+    "value_loss": 0.0,
+    "entropy": 2.5304373502731323,
+    "reward_std": 1.7036554753780364
+  },
+  {
+    "episode": 56,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.20718749314546586,
+    "policy_loss": 0.0022486547008156777,
+    "value_loss": 0.0,
+    "entropy": 2.5063011407852174,
+    "reward_std": 1.3581886768341065
+  },
+  {
+    "episode": 57,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.6090624935925006,
+    "policy_loss": -0.00019827838987112044,
+    "value_loss": 0.0,
+    "entropy": 2.482283687591553,
+    "reward_std": 2.025080621242523
+  },
+  {
+    "episode": 58,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.13593750745058059,
+    "policy_loss": -0.01092960759997368,
+    "value_loss": 0.0,
+    "entropy": 2.466234827041626,
+    "reward_std": 0.9525950968265533
+  },
+  {
+    "episode": 59,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.23843750208616257,
+    "policy_loss": -0.00040681865066289903,
+    "value_loss": 0.0,
+    "entropy": 2.463219141960144,
+    "reward_std": 1.167886608839035
+  },
+  {
+    "episode": 60,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.3559375047683716,
+    "policy_loss": 0.0012107132002711295,
+    "value_loss": 0.0,
+    "entropy": 2.4597954750061035,
+    "reward_std": 1.7552359879016877
+  },
+  {
+    "episode": 61,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.22593750655651093,
+    "policy_loss": -0.004832267016172409,
+    "value_loss": 0.0,
+    "entropy": 2.458211398124695,
+    "reward_std": 1.2480972230434417
+  },
+  {
+    "episode": 62,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.5900000024586916,
+    "policy_loss": -0.005711708217859268,
+    "value_loss": 0.0,
+    "entropy": 2.4403684616088865,
+    "reward_std": 1.8848255157470704
+  },
+  {
+    "episode": 63,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.675624991953373,
+    "policy_loss": -5.828276528063725e-10,
+    "value_loss": 0.0,
+    "entropy": 2.4365297079086305,
+    "reward_std": 1.6240391314029694
+  },
+  {
+    "episode": 64,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.8631250187754631,
+    "policy_loss": -0.0033344604074954987,
+    "value_loss": 0.0,
+    "entropy": 2.4227894067764284,
+    "reward_std": 1.3154943108558654
+  },
+  {
+    "episode": 65,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.16718749478459358,
+    "policy_loss": -0.005853353813290596,
+    "value_loss": 0.0,
+    "entropy": 2.3802058935165404,
+    "reward_std": 1.3429813086986542
+  },
+  {
+    "episode": 66,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.6134375013411045,
+    "policy_loss": -0.009244347363710404,
+    "value_loss": 0.0,
+    "entropy": 2.3350720167160035,
+    "reward_std": 1.9141722738742828
+  },
+  {
+    "episode": 67,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.1293750062584877,
+    "policy_loss": 0.0009230883792042732,
+    "value_loss": 0.0,
+    "entropy": 2.308671498298645,
+    "reward_std": 1.2096029281616212
+  },
+  {
+    "episode": 68,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.2690624907612801,
+    "policy_loss": 0.001832813024520874,
+    "value_loss": 0.0,
+    "entropy": 2.3003353595733644,
+    "reward_std": 1.551365727186203
+  },
+  {
+    "episode": 69,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.33062499538064005,
+    "policy_loss": -0.001612742990255356,
+    "value_loss": 0.0,
+    "entropy": 2.2794224977493287,
+    "reward_std": 1.9667879402637483
+  },
+  {
+    "episode": 70,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.6543749958276749,
+    "policy_loss": -0.0070192873477935794,
+    "value_loss": 0.0,
+    "entropy": 2.2555302143096925,
+    "reward_std": 1.4946608662605285
+  },
+  {
+    "episode": 71,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.34718750789761543,
+    "policy_loss": -0.0067080467939376835,
+    "value_loss": 0.0,
+    "entropy": 2.2386826276779175,
+    "reward_std": 1.3118382513523101
+  },
+  {
+    "episode": 72,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.21124999336898326,
+    "policy_loss": 0.003865768015384674,
+    "value_loss": 0.0,
+    "entropy": 2.232481598854065,
+    "reward_std": 1.664614701271057
+  },
+  {
+    "episode": 73,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.37593749463558196,
+    "policy_loss": 0.007793055474758148,
+    "value_loss": 0.0,
+    "entropy": 2.2264450550079347,
+    "reward_std": 1.4535785138607025
+  },
+  {
+    "episode": 74,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.3765624925494194,
+    "policy_loss": 0.0016125813126564026,
+    "value_loss": 0.0,
+    "entropy": 2.211590075492859,
+    "reward_std": 1.6400760769844056
+  },
+  {
+    "episode": 75,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.23937499821186065,
+    "policy_loss": 0.0010741839185357093,
+    "value_loss": 0.0,
+    "entropy": 2.1922045230865477,
+    "reward_std": 1.107645544409752
+  },
+  {
+    "episode": 76,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.17281249165534973,
+    "policy_loss": 3.7252902984619143e-10,
+    "value_loss": 0.0,
+    "entropy": 2.188399004936218,
+    "reward_std": 1.5331204533576965
+  },
+  {
+    "episode": 77,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.3446874886751175,
+    "policy_loss": -0.0017922848463058471,
+    "value_loss": 0.0,
+    "entropy": 2.1915841579437254,
+    "reward_std": 1.917332410812378
+  },
+  {
+    "episode": 78,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.44281248077750207,
+    "policy_loss": -0.0019228555262088775,
+    "value_loss": 0.0,
+    "entropy": 2.1786980628967285,
+    "reward_std": 1.381071299314499
+  },
+  {
+    "episode": 79,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.4556249972432852,
+    "policy_loss": -0.001426605135202408,
+    "value_loss": 0.0,
+    "entropy": 2.1642250061035155,
+    "reward_std": 1.4930141270160675
+  },
+  {
+    "episode": 80,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.3431249961256981,
+    "policy_loss": 0.0013170629739761353,
+    "value_loss": 0.0,
+    "entropy": 2.143105721473694,
+    "reward_std": 1.0825166583061219
+  },
+  {
+    "episode": 81,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.16218750178813934,
+    "policy_loss": -0.003487497568130493,
+    "value_loss": 0.0,
+    "entropy": 2.1318037509918213,
+    "reward_std": 1.1555541455745697
+  },
+  {
+    "episode": 82,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.6965625077486038,
+    "policy_loss": 0.0013923193328082561,
+    "value_loss": 0.0,
+    "entropy": 2.1120545625686646,
+    "reward_std": 1.605113136768341
+  },
+  {
+    "episode": 83,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.8403124988079071,
+    "policy_loss": -0.004555534943938256,
+    "value_loss": 0.0,
+    "entropy": 2.0936538219451903,
+    "reward_std": 1.847148096561432
+  },
+  {
+    "episode": 84,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.4325000077486038,
+    "policy_loss": 0.005857601016759873,
+    "value_loss": 0.0,
+    "entropy": 2.0679946660995485,
+    "reward_std": 1.4085352182388307
+  },
+  {
+    "episode": 85,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.6065624915063381,
+    "policy_loss": -0.002213002368807793,
+    "value_loss": 0.0,
+    "entropy": 2.0523959159851075,
+    "reward_std": 1.6509947776794434
+  },
+  {
+    "episode": 86,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.4628125101327896,
+    "policy_loss": -0.00817173570394516,
+    "value_loss": 0.0,
+    "entropy": 2.037124490737915,
+    "reward_std": 1.4265174359083175
+  },
+  {
+    "episode": 87,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.47187500447034836,
+    "policy_loss": 0.0015060942620038985,
+    "value_loss": 0.0,
+    "entropy": 2.026209497451782,
+    "reward_std": 1.5822534918785096
+  },
+  {
+    "episode": 88,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.3006250083446503,
+    "policy_loss": 0.0023032478988170625,
+    "value_loss": 0.0,
+    "entropy": 2.0178404569625856,
+    "reward_std": 1.323937177658081
+  },
+  {
+    "episode": 89,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.5759375013411046,
+    "policy_loss": 0.003572569787502289,
+    "value_loss": 0.0,
+    "entropy": 2.0080093264579775,
+    "reward_std": 1.5022982597351073
+  },
+  {
+    "episode": 90,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.19343750327825546,
+    "policy_loss": 0.009179717302322388,
+    "value_loss": 0.0,
+    "entropy": 1.9905290961265565,
+    "reward_std": 1.2794094920158385
+  },
+  {
+    "episode": 91,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.8440624952316285,
+    "policy_loss": 0.0023511216044425965,
+    "value_loss": 0.0,
+    "entropy": 1.990249216556549,
+    "reward_std": 1.8595136284828186
+  },
+  {
+    "episode": 92,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.5615625150501729,
+    "policy_loss": -0.003234243392944336,
+    "value_loss": 0.0,
+    "entropy": 1.9845880389213562,
+    "reward_std": 1.2176451921463012
+  },
+  {
+    "episode": 93,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.33156250417232513,
+    "policy_loss": -0.0027931502088904383,
+    "value_loss": 0.0,
+    "entropy": 1.9816599845886231,
+    "reward_std": 1.562664622068405
+  },
+  {
+    "episode": 94,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.5121875062584877,
+    "policy_loss": -2.2351741790771484e-09,
+    "value_loss": 0.0,
+    "entropy": 1.9645880818367005,
+    "reward_std": 1.8736813127994538
+  },
+  {
+    "episode": 95,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.30218750387430193,
+    "policy_loss": 0.003950623795390129,
+    "value_loss": 0.0,
+    "entropy": 1.9412286043167115,
+    "reward_std": 1.472727745771408
+  },
+  {
+    "episode": 96,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.5384375035762787,
+    "policy_loss": -0.002152566611766815,
+    "value_loss": 0.0,
+    "entropy": 1.9202341079711913,
+    "reward_std": 1.5698711812496184
+  },
+  {
+    "episode": 97,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.1231249913573265,
+    "policy_loss": -0.0027340371161699295,
+    "value_loss": 0.0,
+    "entropy": 1.9042484283447265,
+    "reward_std": 1.5860319077968597
+  },
+  {
+    "episode": 98,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.5809374928474427,
+    "policy_loss": 0.0022496065124869347,
+    "value_loss": 0.0,
+    "entropy": 1.8885191082954407,
+    "reward_std": 2.038708931207657
+  },
+  {
+    "episode": 99,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.5137500077486038,
+    "policy_loss": 0.0008616955950856209,
+    "value_loss": 0.0,
+    "entropy": 1.878430724143982,
+    "reward_std": 1.3010665833950044
+  },
+  {
+    "episode": 100,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.41968750283122064,
+    "policy_loss": 0.00448596253991127,
+    "value_loss": 0.0,
+    "entropy": 1.8694114446640016,
+    "reward_std": 1.5428212463855744
+  },
+  {
+    "episode": 101,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.5687500163912773,
+    "policy_loss": -2.8059847778649782e-09,
+    "value_loss": 0.0,
+    "entropy": 1.856355321407318,
+    "reward_std": 1.7791337251663208
+  },
+  {
+    "episode": 102,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.3259375035762787,
+    "policy_loss": 0.0,
+    "value_loss": 0.0,
+    "entropy": 1.8486819863319397,
+    "reward_std": 1.7583221077919007
+  },
+  {
+    "episode": 103,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.40625000149011614,
+    "policy_loss": 0.008061236888170242,
+    "value_loss": 0.0,
+    "entropy": 1.8414666652679443,
+    "reward_std": 1.3687802374362945
+  },
+  {
+    "episode": 104,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.3846875049173832,
+    "policy_loss": 3.725290298461914e-09,
+    "value_loss": 0.0,
+    "entropy": 1.82420871257782,
+    "reward_std": 1.6425922513008118
+  },
+  {
+    "episode": 105,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.3662499964237213,
+    "policy_loss": -7.931262757665536e-10,
+    "value_loss": 0.0,
+    "entropy": 1.8057810544967652,
+    "reward_std": 1.5717236638069152
+  },
+  {
+    "episode": 106,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.4053124949336052,
+    "policy_loss": 5.215406417846679e-09,
+    "value_loss": 0.0,
+    "entropy": 1.7890162587165832,
+    "reward_std": 1.6983724117279053
+  },
+  {
+    "episode": 107,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.2934374943375587,
+    "policy_loss": -0.0010043224319815636,
+    "value_loss": 0.0,
+    "entropy": 1.7751045942306518,
+    "reward_std": 1.4324761033058167
+  },
+  {
+    "episode": 108,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.3678125008940697,
+    "policy_loss": 0.005058953166007995,
+    "value_loss": 0.0,
+    "entropy": 1.7698218941688537,
+    "reward_std": 1.7841078221797944
+  },
+  {
+    "episode": 109,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.7837499894201756,
+    "policy_loss": 6.332993507385254e-09,
+    "value_loss": 0.0,
+    "entropy": 1.7678541898727418,
+    "reward_std": 1.78505899310112
+  },
+  {
+    "episode": 110,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.40999999195337294,
+    "policy_loss": -0.0065383344888687136,
+    "value_loss": 0.0,
+    "entropy": 1.76812744140625,
+    "reward_std": 1.4266185224056245
+  },
+  {
+    "episode": 111,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.33218750134110453,
+    "policy_loss": 0.009664997458457947,
+    "value_loss": 0.0,
+    "entropy": 1.7700008988380431,
+    "reward_std": 1.1985591769218444
+  },
+  {
+    "episode": 112,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.5237500015646219,
+    "policy_loss": -0.009676484018564224,
+    "value_loss": 0.0,
+    "entropy": 1.769998848438263,
+    "reward_std": 1.2970131516456604
+  },
+  {
+    "episode": 113,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.5262499943375587,
+    "policy_loss": -0.0022808296605944635,
+    "value_loss": 0.0,
+    "entropy": 1.764082682132721,
+    "reward_std": 1.2005094587802887
+  },
+  {
+    "episode": 114,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.21999998688697814,
+    "policy_loss": 0.0016615767031908034,
+    "value_loss": 0.0,
+    "entropy": 1.7514604210853577,
+    "reward_std": 1.338835673034191
+  },
+  {
+    "episode": 115,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.22468750774860383,
+    "policy_loss": 0.010572540014982224,
+    "value_loss": 0.0,
+    "entropy": 1.7429744005203247,
+    "reward_std": 1.2061191618442535
+  },
+  {
+    "episode": 116,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.4418750092387199,
+    "policy_loss": -4.470348358154297e-09,
+    "value_loss": 0.0,
+    "entropy": 1.7362746000289917,
+    "reward_std": 1.8046670794486999
+  },
+  {
+    "episode": 117,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.6203124970197678,
+    "policy_loss": -0.010222618281841279,
+    "value_loss": 0.0,
+    "entropy": 1.7223109126091003,
+    "reward_std": 1.9298149347305298
+  },
+  {
+    "episode": 118,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.6206250011920929,
+    "policy_loss": -0.004819424822926521,
+    "value_loss": 0.0,
+    "entropy": 1.7030319213867187,
+    "reward_std": 1.9138241052627563
+  },
+  {
+    "episode": 119,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.5300000014714896,
+    "policy_loss": 0.0003412706078961492,
+    "value_loss": 0.0,
+    "entropy": 1.6930687785148621,
+    "reward_std": 1.6434887588024139
+  },
+  {
+    "episode": 120,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.3487500067800283,
+    "policy_loss": -0.004838226363062859,
+    "value_loss": 0.0,
+    "entropy": 1.6872562766075134,
+    "reward_std": 1.369152879714966
+  },
+  {
+    "episode": 121,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.5353125035762787,
+    "policy_loss": -0.004838234931230545,
+    "value_loss": 0.0,
+    "entropy": 1.682409906387329,
+    "reward_std": 1.216955727338791
+  },
+  {
+    "episode": 122,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.43968750536441803,
+    "policy_loss": 0.002793148346245289,
+    "value_loss": 0.0,
+    "entropy": 1.6784062027931212,
+    "reward_std": 1.3114930033683776
+  },
+  {
+    "episode": 123,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.5543750040233135,
+    "policy_loss": 0.008789598941802979,
+    "value_loss": 0.0,
+    "entropy": 1.672587525844574,
+    "reward_std": 1.8194284349679948
+  },
+  {
+    "episode": 124,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.49999999776482584,
+    "policy_loss": -0.005563842132687569,
+    "value_loss": 0.0,
+    "entropy": 1.6779008865356446,
+    "reward_std": 1.7547044277191162
+  },
+  {
+    "episode": 125,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.5571874916553498,
+    "policy_loss": -0.004855237901210785,
+    "value_loss": 0.0,
+    "entropy": 1.6755533814430237,
+    "reward_std": 1.4830134153366088
+  },
+  {
+    "episode": 126,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.17812499701976775,
+    "policy_loss": 0.004837686568498612,
+    "value_loss": 0.0,
+    "entropy": 1.6691390037536622,
+    "reward_std": 1.015347021818161
+  },
+  {
+    "episode": 127,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.8837499916553497,
+    "policy_loss": -0.002991420216858387,
+    "value_loss": 0.0,
+    "entropy": 1.6631336092948914,
+    "reward_std": 2.079074591398239
+  },
+  {
+    "episode": 128,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.9865624964237213,
+    "policy_loss": -0.00483822375535965,
+    "value_loss": 0.0,
+    "entropy": 1.6560171842575073,
+    "reward_std": 1.7775649785995484
+  },
+  {
+    "episode": 129,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.15562500059604645,
+    "policy_loss": -0.0016125820577144623,
+    "value_loss": 0.0,
+    "entropy": 1.6472127914428711,
+    "reward_std": 1.4612903773784638
+  },
+  {
+    "episode": 130,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.7890624880790711,
+    "policy_loss": -0.004808470606803894,
+    "value_loss": 0.0,
+    "entropy": 1.6390838146209716,
+    "reward_std": 1.6043112814426421
+  },
+  {
+    "episode": 131,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.43468750864267347,
+    "policy_loss": -0.007576204091310501,
+    "value_loss": 0.0,
+    "entropy": 1.6344416379928588,
+    "reward_std": 1.6962606072425843
+  },
+  {
+    "episode": 132,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.8781249970197678,
+    "policy_loss": 0.003099122829735279,
+    "value_loss": 0.0,
+    "entropy": 1.6308947443962096,
+    "reward_std": 1.799024760723114
+  },
+  {
+    "episode": 133,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.7256250075995923,
+    "policy_loss": -0.007829689979553222,
+    "value_loss": 0.0,
+    "entropy": 1.6240392208099366,
+    "reward_std": 2.180609333515167
+  },
+  {
+    "episode": 134,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.673750002682209,
+    "policy_loss": 0.0032254822552204134,
+    "value_loss": 0.0,
+    "entropy": 1.6213544368743897,
+    "reward_std": 1.6979029774665833
+  },
+  {
+    "episode": 135,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.34656250178813935,
+    "policy_loss": -2.6077032089233397e-09,
+    "value_loss": 0.0,
+    "entropy": 1.618683433532715,
+    "reward_std": 1.1951547384262085
+  },
+  {
+    "episode": 136,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.20531249642372132,
+    "policy_loss": -0.003277301788330078,
+    "value_loss": 0.0,
+    "entropy": 1.6143101096153258,
+    "reward_std": 1.7304018169641495
+  },
+  {
+    "episode": 137,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.4553124874830246,
+    "policy_loss": 1.7133727669715882e-05,
+    "value_loss": 0.0,
+    "entropy": 1.6101533055305481,
+    "reward_std": 1.369249975681305
+  },
+  {
+    "episode": 138,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.19749999642372132,
+    "policy_loss": 5.215406417846679e-09,
+    "value_loss": 0.0,
+    "entropy": 1.6071844577789307,
+    "reward_std": 1.3309426784515381
+  },
+  {
+    "episode": 139,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.42812500447034835,
+    "policy_loss": -0.0007349018938839436,
+    "value_loss": 0.0,
+    "entropy": 1.6039950251579285,
+    "reward_std": 1.305186715722084
+  },
+  {
+    "episode": 140,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.5443750068545341,
+    "policy_loss": 0.0025298923254013063,
+    "value_loss": 0.0,
+    "entropy": 1.6025381445884705,
+    "reward_std": 1.6265327006578445
+  },
+  {
+    "episode": 141,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.8149999946355819,
+    "policy_loss": 0.00161275677382946,
+    "value_loss": 0.0,
+    "entropy": 1.6003121495246888,
+    "reward_std": 1.9817745745182038
+  },
+  {
+    "episode": 142,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.567500002682209,
+    "policy_loss": -0.004914279282093048,
+    "value_loss": 0.0,
+    "entropy": 1.5985979676246642,
+    "reward_std": 1.5598702907562256
+  },
+  {
+    "episode": 143,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.4271874990314245,
+    "policy_loss": 0.003225220739841461,
+    "value_loss": 0.0,
+    "entropy": 1.598040723800659,
+    "reward_std": 1.7457783460617065
+  },
+  {
+    "episode": 144,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.6193750023841857,
+    "policy_loss": -0.00815829187631607,
+    "value_loss": 0.0,
+    "entropy": 1.5984169602394105,
+    "reward_std": 1.2696224570274353
+  },
+  {
+    "episode": 145,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.5674999840557575,
+    "policy_loss": -0.0016127435490489006,
+    "value_loss": 0.0,
+    "entropy": 1.5964326024055482,
+    "reward_std": 1.7954770863056182
+  },
+  {
+    "episode": 146,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.2878124974668026,
+    "policy_loss": 1.6763806343078614e-09,
+    "value_loss": 0.0,
+    "entropy": 1.59860360622406,
+    "reward_std": 1.3916853547096253
+  },
+  {
+    "episode": 147,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.007812501490116119,
+    "policy_loss": 3.3527612686157227e-09,
+    "value_loss": 0.0,
+    "entropy": 1.5977125406265258,
+    "reward_std": 1.6820451259613036
+  },
+  {
+    "episode": 148,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.2696875222027302,
+    "policy_loss": 1.3158686584802125e-09,
+    "value_loss": 0.0,
+    "entropy": 1.5963297605514526,
+    "reward_std": 1.5720975935459136
+  },
+  {
+    "episode": 149,
+    "boss_win_rate": 0.0,
+    "avg_reward": 0.5296875037252903,
+    "policy_loss": -0.0016651701182127,
+    "value_loss": 0.0,
+    "entropy": 1.5955914616584779,
+    "reward_std": 1.6471858084201814
+  }
+]
